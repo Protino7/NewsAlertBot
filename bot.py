@@ -20,7 +20,7 @@ from bs4 import BeautifulSoup
 # ---------------------------------------------------------------------------
 VERSION = "1.0.0"
 TELEGRAM_TOKEN = os.environ.get("TELEGRAM_TOKEN", "")
-CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID", "6987583580")
+CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID", "291291784")
 TELEGRAM_API = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}"
 
 SCAN_INTERVAL = 180  # 3 minuti
